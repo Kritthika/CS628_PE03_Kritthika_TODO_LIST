@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+.todo-list {
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  padding: 8px;
+  width: 120%;
+  margin-bottom: 20px;
+}
+
+.input-section button {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.tasks {
+  margin-top: 20px;
+}
+
+.todo-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.todo-task button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
